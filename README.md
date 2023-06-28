@@ -36,5 +36,5 @@ envs/env_wrapper.py: wrapper for env
 
 ## To Run
 
-python train.py --num_uav $NUM_UAV$ --num_poi_A $NUM_POI_A$ --num_poi_B $NUM_POI_B$ --num_poi_C $NUM_POI_C$ --num_poi_D $NUM_POI_D$ --poi_sequence $DESIRED TEMPORAL COUPLING, for instance- {0: None, 1: [0]}$ --coupling_uav $DESIRED SPATIAL COUPLING$ --seed $SEED$
+python train.py --num_uav <NUM_UAV> --num_poi_A <NUM_POI_A> --num_poi_B <NUM_POI_B> --num_poi_C <NUM_POI_C> --num_poi_D <NUM_POI_D> --poi_sequence <DESIRED TEMPORAL COUPLING, for instance- {0: None, 1: [0]}> --coupling_uav <DESIRED SPATIAL COUPLING> --seed <SEED>
  
